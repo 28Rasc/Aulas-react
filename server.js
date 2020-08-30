@@ -9,9 +9,9 @@ new webpackDevServer(webpack(config), {
     hot: true,
     historyApiFallback: true,
     stats: { colors: true }
-}).listen(3001, (err) => {
+}).listen(3000, (err) => {
     if(err){
         return console.log(err)
     }
-    console.log('Listening on Http://localhost:3001')
+    console.log('Listening on Http://localhost:3000')
 })
